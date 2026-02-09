@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true,
+  // Removed static export for Vercel deployment
+  // output: 'export',
   },
 }
 
