@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.section-card {
+  @apply bg-white rounded-lg shadow-lg p-6 mb-6 border-l-4;
+}
+
+.project-card {
+  @apply bg-white rounded-lg shadow-md p-6 mb-6 border-2 hover:shadow-xl transition-shadow duration-300;
+}
+
+.skill-badge {
+  @apply inline-block bg-royalblue text-white px-3 py-1 rounded-full text-sm mr-2 mb-2;
+}
