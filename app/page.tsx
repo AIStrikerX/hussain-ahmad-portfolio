@@ -316,7 +316,7 @@ export default function Home() {
                 <span className="text-emerald italic font-semibold">Multimodal AI | 2024</span>
               </div>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex gap-2"><span className="text-crimson font-bold">▸</span><span><strong className="text-crimson">Multimodal OCR Application:</strong> Streamlit web application converting handwritten chemistry notes into professionally formatted Microsoft Word documents using <strong>Groq's Llama 4 Maverick</strong></span></li>
+                <li className="flex gap-2"><span className="text-crimson font-bold">▸</span><span><strong className="text-crimson">Multimodal OCR Application:</strong> Streamlit web application converting handwritten chemistry notes into professionally formatted Microsoft Word documents using <strong>Groq&apos;s Llama 4 Maverick</strong></span></li>
                 <li className="flex gap-2"><span className="text-crimson font-bold">▸</span><span><strong className="text-crimson">Chemistry-Specific Processing:</strong> Accurately preserves molecular formulas, chemical equations, reaction arrows, stoichiometric proportions</span></li>
                 <li className="flex gap-2"><span className="text-crimson font-bold">▸</span><span><strong className="text-crimson">Production Deployment:</strong> Live on Streamlit Community Cloud with 99.9% uptime, responsive UI for mobile/desktop</span></li>
                 <li className="flex gap-2"><span className="text-crimson font-bold">▸</span><span><strong className="text-crimson">Privacy & Security:</strong> Privacy-focused design with user-provided API keys, local image processing, encrypted HTTPS communication</span></li>
